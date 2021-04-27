@@ -74,6 +74,8 @@ def main() :
         cur.execute(sql2)
         con.commit()
         print(sql2)
+    else :
+        print("Perintah Yang Dimasukkan Salah")
 
     lagi=input("\nApakah Anda Ingin Melanjutkan Program (Y/T) = ")
     if lagi.lower() == "y" :
